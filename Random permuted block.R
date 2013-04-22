@@ -1,3 +1,16 @@
+#|--------------------------------------------------------------------------------------
+#Description
+#For "randomly permuted blocks" allowing different block sizes. # Output: The assignment table of subjects , treatments and blocks
+#Arguments
+#num: number of subject intended to permute
+#blck_size: a vector of numbers indicate possible block size
+#treat: a list of treatment names(preferred character)
+#Output
+#The assignment table of subjects , treatments and blocks
+#Note: if length of treatment is not a factor of length of observations, an error will return.
+#|---------------------------------------------------------------------------------------
+
+
 block<-function(num,blck_size,treat)
 {
   set.seed(880523)
