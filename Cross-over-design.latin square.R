@@ -1,4 +1,5 @@
 library(crossdes)
+
 # Get a Williams size 4 latin square
 pool <- data.frame(williams(4))
 pattern.id<-c(1,2,3,4)
